@@ -3,3 +3,6 @@ clean_data.csv
 .DS_Store
 npm-debug.log
 node_modules
+clean_data.csv'
+cleaned.csv
+LimitedRowsCleanNowWithPipes.csv

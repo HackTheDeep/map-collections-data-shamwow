@@ -1,7 +1,7 @@
 //hash common month listings
 const months = {
   Jan: 'January',
-  Feb: 'Febuary',
+  Feb: 'February',
   Mar: 'March',
   Apr: 'April',
   Jun: 'June',
@@ -12,7 +12,7 @@ const months = {
   Nov: 'November',
   Dec: 'December',
   January: 'January',
-  Febuary: 'Febuary',
+  February: 'February',
   March: 'March',
   April: 'April',
   May: 'May',

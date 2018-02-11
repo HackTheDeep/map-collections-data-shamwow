@@ -12,12 +12,12 @@ function FileObject(colNames, rowArr) {
 }
 
 function parseFileArr (arr) {
-  const splitRows = arr.split('\n').map(row => row.split(','));
+  const splitRows = arr.split('\n').map(row => row.split('|'));
   const headers = splitRows.shift();
   return splitRows.map(row => new FileObject(headers, row))
 }
 
-const csvFile = fs.readFileSync(path.join(__dirname, 'LimitedCol-hackTheDeepCSV.csv'), 'utf8');
+const csvFile = fs.readFileSync(path.join(__dirname, 'LimitedRowsCleanNowWithPipes.csv'), 'utf8');
 const csvArr = parseFileArr(csvFile);
 
 // console.log(csvArr);

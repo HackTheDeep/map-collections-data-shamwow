@@ -1,4 +1,4 @@
-// Check if date is less than 31 and an integer
+/// Check if date is less than 31 and an integer
 function dateValidator(int){
   if(+int <= 31){
     return +int;
