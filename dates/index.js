@@ -14,7 +14,4 @@ const yearData = csvArr.map(elem => yearCorrector(elem, 'Collection Year (from)'
 
 const newDate = csvArr.map(elem => dateConcat(elem, 'new_Collection Day (from)','new_Collection Month (from)','new_Collection Year (from)', 'new_Collection Date (from)'));
 
-// csvMaker('cleaned.csv', monthData);
-// csvMaker('cleaned.csv', yearData);
-// csvMaker('cleaned.csv', dayData);
 csvMaker('cleaned.csv', newDate);
