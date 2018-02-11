@@ -20,5 +20,6 @@ function parseFileArr (arr) {
 const csvFile = fs.readFileSync(path.join(__dirname, 'LimitedCol-hackTheDeepCSV.csv'), 'utf8');
 const csvArr = parseFileArr(csvFile);
 
-module.exports = csvArr;
+// console.log(csvArr);
 
+module.exports = csvArr;
