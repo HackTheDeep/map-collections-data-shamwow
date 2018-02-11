@@ -46,3 +46,6 @@ function correctData(fileObj, column) {
   }
   return fileObj;
 }
+
+
+module.exports = correctData;
